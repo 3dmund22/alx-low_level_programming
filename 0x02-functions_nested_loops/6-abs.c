@@ -5,7 +5,6 @@
  *
  * Return: 0.
  */
-
 int _abs(int)
 {
   if (n > 0)

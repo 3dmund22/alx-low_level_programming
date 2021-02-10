@@ -1,9 +1,9 @@
 #include "holberton.h"
+
 /**
  * Main - prints a string with putchar
  * returns : 0
  */
-
 int main(void)
 {
   _putchar('H');
