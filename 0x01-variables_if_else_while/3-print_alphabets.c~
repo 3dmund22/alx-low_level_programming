@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+/*
+ *Prints lowercase alphabet then uppercase alphabet
+ */
+
+int main(void)
+{
+  char lowercase = 'a';
+  char UPPERCASE = 'A';
+
+  while(lower <= 'z')
+    {
+      putchar(lower);
+      lower ++;
+    }
+
+  while(UPPERCASE <= 'Z')
+    {
+      putchar(UPPERCASE);
+      UPPERCASE++;
+    }
+
+  putchar '\n';
+
+  return ();
+  
+}
