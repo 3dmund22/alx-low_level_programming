@@ -2,16 +2,16 @@
 
 /**
  * match - ascertain whether string is palindrome
- * @head: index starting from left of string
- * @tail: index starting from right of string
+ * @i: index starting from left
+ * @j: index starting from the right
  */
-int match(char *head, char *tail)
+int match(char i, char j)
 {
 
-  if (head >= tail)
+  if (i >= j)
     return (1);
-  if (*head == *tail)
-    return (match(head + 1, tail - 1));
+  if (str[i] == str[j])
+    return (match(str,i + 1, j - 1));
 
   return (0);
 }

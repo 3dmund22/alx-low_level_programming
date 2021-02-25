@@ -8,7 +8,7 @@ int prime(int n, int j)
     return (1);
   if (n % j == 0)
     return (0);
-  return (is_prime(n, j + 1));
+  return (prime(n, j + 1));
 
 }
 
